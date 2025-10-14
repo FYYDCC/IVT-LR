@@ -1,0 +1,18 @@
+project: IVTLR
+save_path: /path/IVT-LR/chameleon/chameleon_sqa_64
+name: sqa_IVTLR
+
+
+epochs_per_stage: 4
+max_latent_stage: 5
+pad_latent_to_max: True
+
+load_model_path: None
+seed: 0
+resume: 0
+bf16: True
+batch_size_training: 2
+debug: False
+gradient_accumulation_steps: 8
+num_epochs: 16
+lr: !!float "4e-5"
