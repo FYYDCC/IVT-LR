@@ -42,6 +42,8 @@ PYTHONUNBUFFERED=1 nohup deepspeed --master_port 29501 qwenvl_run.py args/qwen.y
 
 
 
+#### Chameleon on ScienceQA
+
 For Chameleon:
 
 ```
@@ -50,6 +52,12 @@ export CUDA_VISIBLE_DEVICES=0,1,2,3
 export NCCL_P2P_LEVEL=NVL   # if is needed
 PYTHONUNBUFFERED=1 nohup deepspeed --master_port 29501 chameleon_run_sqa.py args/chameleon.yaml --deepspeed --deepspeed_config ds_config.json > chameleon.log 2>&1 &
 ```
+
+
+
+
+
+>To implement Chameleon on M3CoT and Qwen2-VL on ScienceQA, just follow the implementation of the other model as a reference.
 
 
 
