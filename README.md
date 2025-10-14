@@ -1,6 +1,10 @@
 # IVT-LR
 Official repository for “Reasoning in the Dark: Interleaved Vision-Text Reasoning in Latent Space” 
 
+## IVT-LR Models
+
+Model files are now available on [Hugging Face](https://huggingface.co/FYYDCC/IVTLR)!
+
 ## Overview
 
 Interleaved Vision-Text Latent Reasoning (IVT-LR) is the first VLM framework that unifies textual and visual representations in the latent space and implements multimodal latent reasoning. Specifically, IVT-LR represents each reasoning step by combining two implicit parts: ***latent text*** and ***latent vision***. We further introduce a progressive multi-stage training strategy to enable MLLMs to perform the above multimodal latent reasoning steps.
