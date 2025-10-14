@@ -3,7 +3,7 @@ Official repository for “Reasoning in the Dark: Interleaved Vision-Text Reason
 
 ## IVT-LR Models
 
-Model files are now available on [Hugging Face](https://huggingface.co/FYYDCC/IVTLR)!
+Model files are now available on [Hugging Face](https://huggingface.co/FYYDCC/IVTLR) !
 
 ## Overview
 
