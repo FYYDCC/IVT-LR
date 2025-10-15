@@ -1,5 +1,5 @@
 # IVT-LR
-Official repository for “Reasoning in the Dark: Interleaved Vision-Text Reasoning in Latent Space” 
+Official repository for [“Reasoning in the Dark: Interleaved Vision-Text Reasoning in Latent Space”](https://arxiv.org/abs/2510.12603)
 
 ## IVT-LR Models
 
